@@ -1,0 +1,1 @@
+btkakademi ASP.NET CORE MVC EĞİTİM serisi içerisindeyken aldığım notlar kodları içeren repodur.
