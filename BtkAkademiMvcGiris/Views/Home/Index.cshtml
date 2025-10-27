@@ -1,8 +1,12 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">BTK Akademi</h1>
+
+@*<p><a class ="btn btn-primary"href="/course/apply">Apply</a></p> @*mormalde manuel olarak adres vermeyiz *@
+
+@*daha geişmiş hali *@
+<p><a class ="btn btn-primary" asp-controller ="Course" asp-action ="Apply">Apply</a></p> @*mormalde manuel olarak adres vermeyiz *@
+
+
 </div>
