@@ -10,8 +10,8 @@ namespace BtkAkademiMvcGiris.Controllers
 
         public IActionResult Index()
         {
-
-            return View();
+            var model = Repository.Applications;
+            return View(model);
 
         }
         public IActionResult Apply() // sunucudan bilgi taleb eden bir sayfa olacak 
