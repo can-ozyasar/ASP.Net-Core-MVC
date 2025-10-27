@@ -1,0 +1,19 @@
+@model String[] /// string array kullnacağımızı sayfaya string array geleceğini belirtiyoruz .
+
+<div>
+    <h3 class="display-6">
+        Index 2
+    </h3>
+
+
+    <div class="lead">
+        @* @işaretinden sonra c#kodları yazılabiliyor *@
+        @* eğer c#kodu içinde tekrardan html kodları kullanırsak o zaman eski kurallar geri gelir @kullanmalıyız   <p>@name</p> *@
+
+        @foreach(string name in Model){
+            <p>@name</p>
+        }
+
+    </div>
+
+</div>

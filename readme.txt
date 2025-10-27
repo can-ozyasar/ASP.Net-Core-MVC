@@ -15,3 +15,5 @@ default değerlerde localhost:5163  localhost:5163/Home   localhost:5163/Home/In
 
 
 dotnet watch ile her değişiklik güncelleme sonucunda run etmemize gerek olmaz .o otomatik olarak güncellemeleri ekrana yansıtır .
+
+dotnet new gitignore   komutu ile gereksiz dosyaların githuba gitmesini engelleriz .
