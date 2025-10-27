@@ -25,8 +25,8 @@ namespace BtkAkademiMvcGiris.Controllers
         [ValidateAntiForgeryToken]  //site güvenliği için 
         public IActionResult Apply([FromForm] Candidate model)  // gelecek bilginin nereden geleceğini de belirtebiliriz .[FromForm]
         {
-
-            return View();
+            Repository.Add(model);
+            return View("FeedBack", model);
 
         }
     }
