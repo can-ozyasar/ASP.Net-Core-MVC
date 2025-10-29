@@ -1,0 +1,64 @@
+# Visual Studio / .NET common ignores
+
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+*.nuget.props
+
+# Build results
+TestResults/
+publish/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS Express
+.vs/https:/
+iisexpress/
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# node modules (if repo contains frontend packages)
+node_modules/
+
+# local database files
+*.db
+*.db-journal
+
+# temporary files
+*.tmp
+*.temp
+
+# Test / coverage
+.coverage
+coverage/
+
+# Ignore build artifacts created by VS
+**/bin/
+**/obj/
