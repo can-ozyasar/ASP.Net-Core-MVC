@@ -2,11 +2,26 @@
 
 ASP.NET Core MVC öğrenme ve örnek uygulama projelerini içeren .NET çözüm koleksiyonu.
 
-## Öne Çıkanlar
+## Bu Repo Ne İçin Var?
+ASP.NET Core MVC mimarisini örnek projeler üzerinden öğrenmek ve farklı uygulama yapılarını karşılaştırmak için oluşturuldu.
+
+Bu README'nin amacı; repoya ilk kez gelen birinin projenin neden açıldığını, içinde ne bulunduğunu ve nereden başlaması gerektiğini hızlıca anlamasını sağlamaktır.
+
+## İçerik ve Kapsam
+Bu repoda öne çıkan içerikler şunlardır:
 - Birden fazla .NET solution/proje klasörü
 - MVC ve temel web geliştirme pratikleri
 - BTK Akademi çalışmaları için düzenli arşiv
-- Kullanılan ana teknolojiler: HTML, .NET, C#, CSS
+- .NET solution/proje dosyaları ve katmanlı uygulama yapısı
+
+## Kimler İçin Faydalı?
+Frontend/web geliştirme pratiği yapmak, arayüz yapısını incelemek veya projeyi kişiselleştirmek isteyenler için uygundur.
+
+## Kullanılan Teknolojiler
+- HTML
+- .NET
+- C#
+- CSS
 
 ## Kurulum
 ```bash
@@ -31,7 +46,6 @@ dotnet build "ASP.Net8.sln"
 - `Store` - 7 dosya
 - `.vscode` - 1 dosya
 - `ASP.Net8.sln` - 1 dosya
-- `readme.txt` - 1 dosya
 - `version` - 1 dosya
 
 ## Geliştirme Notları
